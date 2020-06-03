@@ -2,32 +2,35 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://use.fontawesome.com/881110210c.js"></script>
+<link rel="stylesheet" type="text/css" href="css/normalize.css">
 <link rel="stylesheet" type="text/css" href="css/framework.css">
 <link rel="stylesheet" type="text/css" href="css/main.css">
 <title>Exercise One</title>
 </head>
 
 <body>
-<header class="wrapper, row" id="navy-box">
-	<div>
-		<div><!--all these will need an icon-->
-			<p>+1 (168) 314 5016</p>
-			<p>email:infor@themspro.com</p>
-			<label>Mon-Sat 12:00-20:00</label>
+<header class="wrapper row" id="navy-box">
+	<div><!--all these will need an icon-->
+		<p><a href="tel:+11683145016">+1 (168) 314 5016</a></p>
+		<p><a href="mailto:infor@themspro.com">email:info@themspro.com</a></p>
+		<p>Mon-Sat <time>12:00</time>-<time>20:00</time></p>
 			<ul>
-				<li><a href="http://www.facebook.com" target="_blank">Facebook</a></li>
-				<li><a href="http://www.twitter.com" target="_blank">twitter</a></li>
-				<li><a href="http://www.google.com" target="_blank">Google</a></li>
-				<li><a href="http://www.instagram.com" target="_blank">instagram</a></li>
-				<li><a href="http://www.pinterest.com" target="_blank">pinterest</a></li>
-				<li><a href="http://www.linkedin.com" target="_blank">linkedin</a></li>
+				<li><a href="http://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i><span>Facebook</span></a></li>
+				<li><a href="http://www.twitter.com" target="_blank"><i class=""></i><span>twitter</span></a></li>
+				<li><a href="http://www.google.com" target="_blank"><i class=""></i><span>Google</span></a></li>
+				<li><a href="http://www.instagram.com" target="_blank"><i class=""></i><span>instagram</span></a></li>
+				<li><a href="http://www.pinterest.com" target="_blank"><i class=""></i><span>pinterest</span></a></li>
+				<li><a href="http://www.linkedin.com" target="_blank"><i class=""></i><span>linkedin</span></a></li>
 			</ul>
-		</div>
 	</div>
-</header>
-	<div class="wrapper" id="white-box">
-		<h1>TopBuilder</h1>
-		<div>
+	<div class="wrapper row" id="white-box">
+		<div id="float-left">
+			<header>
+				<h1>TopBuilder</h1>
+			</header>
+		</div>
 			<nav>
 				<ul>
 					<li><a href="#">Home</a></li>
@@ -36,47 +39,60 @@
 					<li><a href="#features">Gallery</a></li>
 					<li><a href="#blog">Blog</a></li>
 					<li><a href="#contact">Contact</a></li>
+					<li><a href="#">search</a></li>
 				</ul>
 			</nav>
-			<div>
-				<p><a>search</a></p>
-			</div>
+	</div>
+	<div id="photo-1">
+		<div class="wrapper row">
+			<p>Welcome To Our <br/>Clean, Modern, Multipurpose Theme</p>
+			<p>Our team of professionals will help you turn your dream home or flat into a reality fast. The love boat promise something for everyone. Nowthe world don't move to the beat of just one.</p>
+			<p><a href="#features">Read more</a></p>
 		</div>
 	</div>
-	<div class="wrapper, row" id="photo-1">
-		<h2>Welcome To Our</h2>
-		<h3>Clean, Modern, Multipurpose Theme</h3>
-		<p>Our team of professionals will help you turn your dream home or flat into a reality fast. The love boat promise something for everyone. Nowthe world don't move to the beat of just one.</p>
-		<p><a>Read more</a></p>
+</header>
+	<div id="gray">
+		<div class="wrapper row">
+			<section>
+				<img/>
+				<header>
+					<h2>Professional Build</h2>
+				</header>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
+			</section>
+			<section>
+				<img/>
+				<header>
+					<h2>We Deliver Quality</h2>
+				</header>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
+			</section>
+			<section>
+				<img/>
+				<header>
+					<h2>Always On Time</h2>
+				</header>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
+			</section>
+			<section>
+				<img/>
+				<header>
+					<h2>We Are Passionate</h2>
+				</header>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
+			</section>
+		</div>
 	</div>
-	<div class="wrapper, row" id="gray">
-		<section>
-			<img/>
-			<h4>Professional Build</h4>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
-		</section>
-		<section>
-			<img/>
-			<h4>We Deliver Quality</h4>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
-		</section>
-		<section>
-			<img/>
-			<h4>Always On Time</h4>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
-		</section>
-		<section>
-			<img/>
-			<h4>We Are Passionate</h4>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
-		</section>
-	</div>
-	<div class="wrapper, row" id="about">
-		<h2>About Us</h2>
+	<div class="wrapper row" id="about">
+		<header>
+			<h3>About Us</h3>
+		</header>
 		<!--add the line here-->
 		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
 		<section>
-			<h3>Who are we</h3>
+			<header>
+				<h4>Who are we</h4>
+			</header>
 			<!--add the line-->
 			<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarassing hidden in the middle of the text.</p>
 			<p><a>Contact now</a></p>
@@ -85,15 +101,19 @@
 			<img/>
 		</section>
 	</div>
-	<div class="wrapper, row" id="services"><!--not sure how to do this section-->
-		<h2>what we offer</h2>
+	<div class="wrapper row" id="services"><!--not sure how to do this section-->
+		<header>
+			<h3>what we offer</h3>
+		</header>
 		<!--add the line-->
 		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
 		<div>
 			<img/>
 			<section>
 				<img/>
-				<h4>Building Construction</h4>
+				<header>
+					<h4>Building Construction</h4>
+				</header>
 				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy.</p>
 			</section>
 		</div>
@@ -101,7 +121,9 @@
 			<img/>
 			<section>
 				<img/>
-				<h4>Project planning</h4>
+				<header>
+					<h4>Project planning</h4>
+				</header>
 				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy.</p>
 			</section>
 		</div>
@@ -109,69 +131,95 @@
 			<img/>
 			<section>
 				<img/>
-				<h4>House renovation</h4>
+				<header>
+					<h4>House renovation</h4>
+				</header>
 				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy.</p>
 			</section>
 		</div>
 	</div>
-	<div class="wrapper, row" id="features">
-		<h2>Our features</h2>
+	<div class="wrapper row" id="features">
+		<header>
+			<h3>Our features</h3>
+		</header>
 		<!--add the line-->
 		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
 		<section>
 			<img/>
 		</section>
 		<section><!--not sure if I laid these out correctly-->
-			<h3>Why Choose us</h3>
+			<header>
+				<h4>Why Choose us</h4>
+			</header>
 			<!--line-->
 			<p>There are many variations of passages of Lorem Ipsum available.</p>
 			<section>
 				<img/>
-				<h4>30+ years of experience</h4>
+				<header>
+					<h4>30+ years of experience</h4>
+				</header>
 				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
 			</section>
 			<section>
 				<img/>
-				<h4>qaulified experts</h4>
+				<header>
+					<h4>qaulified experts</h4>
+				</header>
 				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
 			</section>
 			<section>
 				<img/>
-				<h4>best customer services</h4>
+				<header>
+					<h4>best customer services</h4>
+				</header>
 				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
 			</section>
 		</section>
 	</div>
-	<div class="wrapper,row" id="photo-2">
-		<h2>our achievements</h2>
-		<!--line-->
-		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
-		<section>
-			<img/>
-			<h5>800</h5>
-			<p>Project completed</p>
-		</section>
-		<!--horizontal line-->
-		<section>
-			<img/>
-			<h5>229</h5>
-			<p>house renovations</p>
-		</section>
-		<!--horizontal line-->
-		<section>
-			<img/>
-			<h5>1390</h5>
-			<p>workers employed</p>
-		</section>
-		<!--horizontal line-->
-		<section>
-			<img/>
-			<h5>125</h5>
-			<p>awards won</p>
-		</section>
+	<div id="photo-2">
+		<div class="wrapper row">
+			<header>
+				<h3>our achievements</h3>
+			</header>
+			<!--line-->
+			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+			<section>
+				<img/>
+				<header>
+					<h5>800</h5>
+				</header>
+				<p>Project completed</p>
+			</section>
+			<!--horizontal line-->
+			<section>
+				<img/>
+				<header>
+					<h5>229</h5>
+				</header>
+				<p>house renovations</p>
+			</section>
+			<!--horizontal line-->
+			<section>
+				<img/>
+				<header>
+					<h5>1390</h5>
+				</header>
+				<p>workers employed</p>
+			</section>
+			<!--horizontal line-->
+			<section>
+				<img/>
+				<header>
+					<h5>125</h5>
+				</header>
+				<p>awards won</p>
+			</section>
+		</div>
 	</div>
-	<div class="wrapper, row" id="blog">
-		<h3>Our latest blog</h3>
+	<div class="wrapper row" id="blog">
+		<header>
+			<h3>Our latest blog</h3>
+		</header>
 		<!--line-->
 		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
 		<section>
@@ -199,51 +247,54 @@
 			<p><a>Read More</a></p>
 		</section>
 	</div>
-	<div class="wrapper, row" id="contact">
+	<div class="wrapper row" id="contact">
 		<section>
-			<h2>About Our company</h2>
+			<header>
+				<h3>About Our company</h3>
+			</header>
 			<p>logo</p>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 			<ul>
-				<li><a>Facebook</a></li>
-				<li><a>Twitter</a></li>
-				<li><a>Google</a></li>
-				<li><a>linkedin</a></li>
+				<li><a href="http://www.facebook.com"><span>Facebook</span></a></li>
+				<li><a href="http://www.twitter.com"><span>Twitter</span></a></li>
+				<li><a href="http://www.google.com"><span>Google</span></a></li>
+				<li><a href="http://www.linkedin.com"><span>linkedin</span></a></li>
 			</ul>
 		</section>
 		<section>
-			<h2>Quick Links</h2>
+			<header>
+				<h3>Quick Links</h3>
+			</header>
 			<ul>
-				<li><a>Building Construction</a></li>
-				<li><a>Home Renovation</a></li>
-				<li><a>Hardwood Flooring</a></li>
-				<li><a>Repairing of Roof</a></li>
-				<li><a>Commerical Construction</a></li>
-				<li><a>Concrete Transport</a></li>
+				<li><a href="#servives">Building Construction</a></li>
+				<li><a href="#services">Home Renovation</a></li>
+				<li><a href="#services">Hardwood Flooring</a></li>
+				<li><a href="#services">Repairing of Roof</a></li>
+				<li><a href="#services">Commerical Construction</a></li>
+				<li><a href="#services">Concrete Transport</a></li>
 			</ul>
 		</section>
 		<section>
-			<h2>Twiiter Feed</h2>
+			<header>
+				<h3>Twiiter Feed</h3>
+			</header>
 			<p>@colorlib:Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat.</p>
 			<p>@colorlib:Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat.</p>
 		</section>
 		<section>
-			<h2>Contact us</h2>
+			<header>
+				<h3>Contact us</h3>
+			</header>
 			<p>Have questions, comments or just want to say hello:</p>
-			<img/>
-			<label for="mail">info@thethemspro.com</label>
-			<input type="email" id="mail" name="mail">
-			<img/>
-			<label for="number">+880 123 456 789</label>
-			<input type="tel" id="number" name="number">
-			<img/>
-			<label for="place">Sector #10, Road # 05, Plot #31, Uttara, Dhaka 1230</label>
-			<input type="search" id="place" name="place">
+			<p><a href="mailto:info@themspro.com">info@thethemspro.com</a></p>
+			<p><a href="tel:+880123456789">+880 123 456 789</a></p>
+			<p>Sector #10, Road # 05, Plot #31, <br/> Uttara, Dhaka 1230</p>
+			
 		</section>
 	</div>
-	<footer>
+	<div id="black-bg">
 		<p>Copyright 2017 All rights reserved. Designed by Colorlib.</p>
-	</footer>
+	</div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="js/functions.js"></script>
 </body>
