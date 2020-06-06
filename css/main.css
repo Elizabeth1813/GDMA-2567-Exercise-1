@@ -37,7 +37,7 @@
 2.0 - Navigation Menus
 -------------------------------------------------------------- */
 
-nav ul li, header ul li {
+nav ul li, header ul li, header div p, header ul{
 	display: inline-block;
 }
 
@@ -49,3 +49,27 @@ span{
 }
 
 /*-- 3.1 Site Structure ----*/
+
+header div p, header ul{
+	padding: 5px;
+}
+
+/*--------------------------------------------------------------
+5.0 - Utility
+-------------------------------------------------------------- */
+/*---- 5.1 background colors--*/
+/*-- 5.3 text sizes --*/
+h2{
+	font-size: 15px
+}
+p{
+	font-size: 13px;
+}
+/*-- 5.4 text alighments--*/
+
+#about div section p, #features .float-right p{
+	text-align: left;
+}
+p,h2, h3{
+	text-align: center;
+}
