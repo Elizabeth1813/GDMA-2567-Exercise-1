@@ -37,7 +37,7 @@
 2.0 - Navigation Menus
 -------------------------------------------------------------- */
 
-nav ul li, header ul li, header div p, header ul{
+nav ul li, header ul li, header div p, header ul, #contact ul li{
 	display: inline-block;
 }
 
@@ -53,11 +53,38 @@ span{
 header div p, header ul{
 	padding: 5px;
 }
-
+#photo-1{
+	background-image: url("../img/header-background-img.jpg");
+}
+#photo-2{
+	background-image: url("../img/achievements-background-img.jpg");
+}
+#contact{
+	background-image: url("../img/footer-background-imgjpg.jpg")
+}
 /*--------------------------------------------------------------
 5.0 - Utility
 -------------------------------------------------------------- */
 /*---- 5.1 background colors--*/
+#navy-box{
+	background-color: #101E29;
+  
+}
+#gray{
+	background-color: #F5F5F5;
+}
+#services{
+	background-color: #F8B81C
+}
+#black-bg{
+	background-color: #000000;
+	padding: 20px;
+}
+/* -- 5.2 text colors--*/
+#black-bg p, #contact{
+	color: #FFFFFF
+}
+
 /*-- 5.3 text sizes --*/
 h2{
 	font-size: 15px
@@ -71,5 +98,8 @@ p{
 	text-align: left;
 }
 p,h2, h3{
+	text-align: center;
+}
+#photo-1 p{
 	text-align: center;
 }
