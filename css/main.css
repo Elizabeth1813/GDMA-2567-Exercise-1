@@ -29,10 +29,23 @@
 	6.2 - medium display
 	6.3 - large display
 --------------------------------------------------------------*/
+
+*{
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
 /*--------------------------------------------------------------
 1.0 - Typography
 -------------------------------------------------------------- */
+nav ul li a, #navy-box p, #photo-1 p a, #about p a{
+	text-decoration: none; 
+}
 
+/*--- 1.3 Buttons---*/
+#photo-1 p a, #about p a{
+	padding: 10px;
+	background-color: #F6B608;
+	
+}
 /*--------------------------------------------------------------
 2.0 - Navigation Menus
 -------------------------------------------------------------- */
@@ -47,10 +60,19 @@ nav ul li, header ul li, header div p, header ul, #contact ul li{
 span{
 	display: none;
 }
-
+#photo-1 p, h1, h2,h3, #about p a, #features p, #blog{
+	text-transform: uppercase;
+} 
+#blog ul li {
+	display: inline;
+	font-size: 9px;
+}
 /*-- 3.1 Site Structure ----*/
 
 header div p, header ul{
+	padding: 5px;
+}
+#navy-box i, #gray i {
 	padding: 5px;
 }
 #photo-1{
@@ -74,17 +96,28 @@ header div p, header ul{
 	background-color: #F5F5F5;
 }
 #services{
-	background-color: #F8B81C
+	background-color: #F8B81C;
 }
 #black-bg{
 	background-color: #000000;
 	padding: 20px;
 }
 /* -- 5.2 text colors--*/
-#black-bg p, #contact{
+#black-bg p, #contact, #navy-box p,#photo-1 p:nth-child(2), #photo-2{
 	color: #FFFFFF
 }
 
+#navy-box i, #gray i, #photo-1 p:first-of-type, h3, #features i{
+	color: #F6B608;
+}
+nav ul li a, #photo-1 p a{
+	color: #000000;
+}
+#features i{
+	background-color:#333333;
+	border: 4px solid #F6B608;
+	padding: 10px;
+}
 /*-- 5.3 text sizes --*/
 h2{
 	font-size: 15px
@@ -92,14 +125,14 @@ h2{
 p{
 	font-size: 13px;
 }
+#photo-1 p:first-of-type{
+	font-size: 20px;
+}
 /*-- 5.4 text alighments--*/
 
 #about div section p, #features .float-right p{
 	text-align: left;
 }
-p,h2, h3{
-	text-align: center;
-}
-#photo-1 p{
+p,h2, h3, #photo-1 p:first-of-type{
 	text-align: center;
 }
